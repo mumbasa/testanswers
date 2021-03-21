@@ -12,6 +12,7 @@ def foo(length):
 
 generated = []
 
+# recurve method
 def foo2(length):
     if len(generated) < length:
         r = randint(1, length)
