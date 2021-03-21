@@ -16,6 +16,7 @@ public class MedlineCitationSet {
 	public MedlineCitationSet(NodeList articleList) {
 		// TODO Auto-generated constructor stub
 		this.authors = new HashMap<String, Author>();
+
 		this.setArticleList(articleList);
 	}
 
